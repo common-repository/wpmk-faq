@@ -1,0 +1,115 @@
+#wpmk-faq-container{
+    overflow: hidden;
+}
+#wpmk-faq-container p{
+    margin: 0px;
+    padding: 0px;
+}
+/* Box */
+.wpmk-faq-box{
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #EDEDED; /* change it */
+}
+/* Title */
+.wpmk-faq-title{
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    background-color: #a5a5ff; /* change it */
+    color: #FFFFFF; /* change it */
+}
+.wpmk-faq-title:after {
+    content: '\002B';
+    color: #FFFFFF; /* change it */
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.wpmk-title-after:after {
+    content: "\2212";
+}
+/* Content */
+.wpmk-faq-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff; /* change it */
+    color: #000000; /* change it */
+}
+.wpmk-faq-content.wpmk-default{
+    display: block;
+}
+
+/* Blue Skin */
+/* Box */
+.wpmk-faq-box.wpmk-blue{
+    border: 1px solid #337ab7;
+}
+/* Title */
+.wpmk-faq-title.wpmk-blue{
+    background-color: #337ab7;
+    color: #FFFFFF;
+}
+
+/* Red Skin */
+/* Box */
+.wpmk-faq-box.wpmk-red{
+    border: 1px solid #d9534f;
+}
+/* Title */
+.wpmk-faq-title.wpmk-red{
+    background-color: #d9534f;
+    color: #FFFFFF;
+}
+
+/* Green Skin */
+/* Box */
+.wpmk-faq-box.wpmk-green{
+    border: 1px solid #5cb85c;
+}
+/* Title */
+.wpmk-faq-title.wpmk-green{
+    background-color: #5cb85c;
+    color: #FFFFFF;
+}
+
+/* Yello Skin */
+/* Box */
+.wpmk-faq-box.wpmk-yellow{
+    border: 1px solid #f0ad4e;
+}
+/* Title */
+.wpmk-faq-title.wpmk-yellow{
+    background-color: #f0ad4e;
+    color: #FFFFFF;
+}
+
+/* Black Skin */
+/* Box */
+.wpmk-faq-box.wpmk-black{
+    border: 1px solid #444444;
+}
+/* Title */
+.wpmk-faq-title.wpmk-black{
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+/* Sky Skin */
+/* Box */
+.wpmk-faq-box.wpmk-sky{
+    border: 1px solid #2795e9;
+}
+/* Title */
+.wpmk-faq-title.wpmk-sky{
+    background-color: #2795e9;
+    color: #FFFFFF;
+}
